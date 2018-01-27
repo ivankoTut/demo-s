@@ -35,10 +35,15 @@ class Helpers
     public function validateEntity($entity)
     {
         $errors = $this->validator->validate($entity);
+
+        if($errors->count() > 0){
+            return $errors;
+        }
+
         $browser = new Browser();
         $response = $browser->get($entity->getFullLink());
 
-        if ($response->getHeaders()[0] != 'HTTP/1.1 200 Ok') {
+        if (strstr($response->getHeaders()[0],'200') === false) {
             $errors = [];
             $errors[] = [
                 "property_path" => "fullLink",

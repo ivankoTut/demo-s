@@ -16,6 +16,7 @@ use FOS\RestBundle\Controller\FOSRestController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use FOS\RestBundle\View\View;
+use Symfony\Component\Validator\Exception\ValidatorException;
 
 
 /**
@@ -62,9 +63,9 @@ class LinkController extends FOSRestController
         }
 
         if($status = $linkRepository->addLink($link) === true){
-            return ['status' => 'success'];
+            return ['status' => 'success', 'link' => $link];
         } else{
-           return ['status' => 'error', 'message'=>$status];
+           return ['status' => 'error', 'message' => $status];
         }
 
     }

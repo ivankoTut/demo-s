@@ -49,7 +49,9 @@ class LinkRepository extends \Doctrine\ORM\EntityRepository
         }
 
         if (array_key_exists('short_link', $data)) {
-            $link->setShortLink($data['short_link']);
+            $link->setShortLink(
+                $data['short_link'] != '' ? $data['short_link'] : 'generate'
+            );
         } else {
             $link->setShortLink('generate');
         }
