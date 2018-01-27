@@ -5,12 +5,14 @@ import ShortLinkField from './form/ShortLinksField';
 import NewLink from './NewLink';
 
 import axios from 'axios';
+import loader from './30.gif';
 
 export default class LinkForm extends Component {
     constructor(props) {
         super(props);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.state = {
+            loading: false,
             link: false,
             fullLink: {
                 text: '',
@@ -46,11 +48,14 @@ export default class LinkForm extends Component {
             return false;
         }
 
-        axios.post('/app_dev.php/api/link', {
+        this.setState({loading: true});
+
+        axios.post('/api/link', {
             'full_link': fullLink,
             'short_link': shortLink
         }).then(response => {
             this.sendForm = false;
+            this.setState({loading: false});
             if (response.data.status === "error") {
                 this.showErrors(response.data.errors);
                 return false;
@@ -59,6 +64,7 @@ export default class LinkForm extends Component {
             this.showNewLink(response.data.link);
         }).catch(error => {
             this.sendForm = false;
+            this.setState({loading: false});
             console.log(error);
         });
     }
@@ -98,6 +104,7 @@ export default class LinkForm extends Component {
     }
 
     render() {
+        let showLoader = this.state.loading ? {display: 'inline-block'} : {display: 'none'};
 
         return (
             <div>
@@ -107,6 +114,7 @@ export default class LinkForm extends Component {
                             <FullLinkField value="" error={this.state.fullLink} ref="fullLink"/>
                             <ShortLinkField value="" error={this.state.shortLink} ref="shortLink"/>
                             <button type="submit" className="btn btn-primary mb-2">Confirm identity</button>
+                            <img src={loader} alt="" style={showLoader} />
                         </form>
                     </div>
                 </div>
