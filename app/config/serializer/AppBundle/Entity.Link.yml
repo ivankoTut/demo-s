@@ -1,0 +1,7 @@
+AppBundle\Entity\Link:
+    exclusion_policy: ALL
+    properties:
+        full_link:
+            expose: true
+        short_link:
+            expose: true

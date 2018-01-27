@@ -1,0 +1,575 @@
+{
+  "error": {
+    "code": 405,
+    "message": "Method Not Allowed",
+    "exception": [
+      {
+        "message": "No route found for \"POST \/api\/link\": Method Not Allowed (Allow: GET)",
+        "class": "Symfony\\Component\\HttpKernel\\Exception\\MethodNotAllowedHttpException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/EventListener\/RouterListener.php",
+            "line": 143,
+            "args": []
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel\\EventListener",
+            "short_class": "RouterListener",
+            "class": "Symfony\\Component\\HttpKernel\\EventListener\\RouterListener",
+            "type": "->",
+            "function": "onKernelRequest",
+            "file": null,
+            "line": null,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "call_user_func",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/Debug\/WrappedListener.php",
+            "line": 104,
+            "args": [
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Symfony\\Component\\HttpKernel\\EventListener\\RouterListener"
+                  ],
+                  [
+                    "string",
+                    "onKernelRequest"
+                  ]
+                ]
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher\\Debug",
+            "short_class": "WrappedListener",
+            "class": "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener",
+            "type": "->",
+            "function": "__invoke",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/EventDispatcher.php",
+            "line": 212,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher",
+            "short_class": "EventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\EventDispatcher",
+            "type": "->",
+            "function": "doDispatch",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/EventDispatcher.php",
+            "line": 44,
+            "args": [
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ]
+                ]
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher",
+            "short_class": "EventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\EventDispatcher",
+            "type": "->",
+            "function": "dispatch",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/Debug\/TraceableEventDispatcher.php",
+            "line": 139,
+            "args": [
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher\\Debug",
+            "short_class": "TraceableEventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher",
+            "type": "->",
+            "function": "dispatch",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 127,
+            "args": [
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 202,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/link.test\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "message": "",
+        "class": "Symfony\\Component\\Routing\\Exception\\MethodNotAllowedException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/link.test\/var\/cache\/dev\/appDevDebugProjectContainerUrlMatcher.php",
+            "line": 128,
+            "args": []
+          },
+          {
+            "namespace": "",
+            "short_class": "appDevDebugProjectContainerUrlMatcher",
+            "class": "appDevDebugProjectContainerUrlMatcher",
+            "type": "->",
+            "function": "match",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/Routing\/Matcher\/UrlMatcher.php",
+            "line": 95,
+            "args": [
+              [
+                "string",
+                "\/api\/link"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\Routing\\Matcher",
+            "short_class": "UrlMatcher",
+            "class": "Symfony\\Component\\Routing\\Matcher\\UrlMatcher",
+            "type": "->",
+            "function": "matchRequest",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/Routing\/Router.php",
+            "line": 262,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\Routing",
+            "short_class": "Router",
+            "class": "Symfony\\Component\\Routing\\Router",
+            "type": "->",
+            "function": "matchRequest",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/EventListener\/RouterListener.php",
+            "line": 109,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel\\EventListener",
+            "short_class": "RouterListener",
+            "class": "Symfony\\Component\\HttpKernel\\EventListener\\RouterListener",
+            "type": "->",
+            "function": "onKernelRequest",
+            "file": null,
+            "line": null,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "call_user_func",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/Debug\/WrappedListener.php",
+            "line": 104,
+            "args": [
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Symfony\\Component\\HttpKernel\\EventListener\\RouterListener"
+                  ],
+                  [
+                    "string",
+                    "onKernelRequest"
+                  ]
+                ]
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher\\Debug",
+            "short_class": "WrappedListener",
+            "class": "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener",
+            "type": "->",
+            "function": "__invoke",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/EventDispatcher.php",
+            "line": 212,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher",
+            "short_class": "EventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\EventDispatcher",
+            "type": "->",
+            "function": "doDispatch",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/EventDispatcher.php",
+            "line": 44,
+            "args": [
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ]
+                ]
+              ],
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher",
+            "short_class": "EventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\EventDispatcher",
+            "type": "->",
+            "function": "dispatch",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/Debug\/TraceableEventDispatcher.php",
+            "line": 139,
+            "args": [
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher\\Debug",
+            "short_class": "TraceableEventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher",
+            "type": "->",
+            "function": "dispatch",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 127,
+            "args": [
+              [
+                "string",
+                "kernel.request"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/link.test\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 202,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/link.test\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

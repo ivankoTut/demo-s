@@ -1,0 +1,82 @@
+[
+  {
+    "id": 115,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/best_practices\/index.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQFggUMAA&usg=AOvVaw22Qn6qZM5cBczT_lZVZH_U",
+    "short_link": "At43ZQ",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 116,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/best_practices\/business-logic.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQjBAIGzAB&usg=AOvVaw2JMXny_UupDAqfa3EHqD7j",
+    "short_link": "CgLpXO",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 117,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/best_practices\/controllers.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQjBAIHTAE&usg=AOvVaw02rZfYOhqtPQjfWUAsIL99",
+    "short_link": "mHvfOv",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 118,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/best_practices\/security.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQjBAIHzAC&usg=AOvVaw1OzbGbd_iHKnGbt9Ytkspy",
+    "short_link": "pPD4Mz",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 119,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/bundles\/best_practices.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQjBAIITAF&usg=AOvVaw095QjHACZEoWeNtjkPgcbu",
+    "short_link": "LazpLP",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 120,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/best_practices\/forms.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQjBAIIzAD&usg=AOvVaw2zzc5zxxR57RqbytpRYq_4",
+    "short_link": "ATnWra",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 121,
+    "full_link": "https:\/\/symfony.com\/doc\/current\/best_practices\/templates.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQjBAIJTAG&usg=AOvVaw3Xx9qR5N9aXuSsnK833KV2",
+    "short_link": "uWVpCy",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 122,
+    "full_link": "https:\/\/symfony.com\/doc\/4.0\/bundles\/best_practices.html&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQFggoMAc&usg=AOvVaw3kzvXenLPWqbA8GWGtmBT2",
+    "short_link": "11M1IE",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 123,
+    "full_link": "https:\/\/symfony.com\/blog\/introducing-the-official-symfony-best-practices&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQFggtMAg&usg=AOvVaw0ukTJYw6PRuusrjMAC595z",
+    "short_link": "PVevZs",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  },
+  {
+    "id": 124,
+    "full_link": "https:\/\/symfony.com\/pdf\/Symfony_best_practices_2.6.pdf&sa=U&ved=0ahUKEwit3e_koPHYAhVMiiwKHbfMB0sQFgg0MAk&usg=AOvVaw0FN38GYjDNwsaVuykdy4DL",
+    "short_link": "hLv4a2",
+    "count_visit": 0,
+    "created_at": "2018-01-24T21:44:20+03:00",
+    "updated_at": "2018-01-24T21:44:20+03:00"
+  }
+]
