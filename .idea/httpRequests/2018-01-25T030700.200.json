@@ -1,9 +1,0 @@
-{
-  "status": "error",
-  "errors": [
-    {
-      "property_path": "shortLink",
-      "message": "This value is already used."
-    }
-  ]
-}
