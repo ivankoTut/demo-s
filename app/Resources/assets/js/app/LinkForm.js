@@ -113,7 +113,7 @@ export default class LinkForm extends Component {
                         <form className="form" onSubmit={this.handleSubmit}>
                             <FullLinkField value="" error={this.state.fullLink} ref="fullLink"/>
                             <ShortLinkField value="" error={this.state.shortLink} ref="shortLink"/>
-                            <button type="submit" className="btn btn-primary mb-2">Confirm identity</button>
+                            <button type="submit" className="btn btn-primary mb-2">Generate link</button>
                             <img src={loader} alt="" style={showLoader} />
                         </form>
                     </div>
